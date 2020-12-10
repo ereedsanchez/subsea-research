@@ -17,15 +17,24 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=210137
 ### On client Pi (or Linux system)
 
 1. SCP fil;e to your local system.
-    scp root@198.199.71.241:/home/vpn/CornIslandCLTI.ovpn /home/Downloads/
+
+
+        scp root@198.199.71.241:/home/vpn/CornIslandCLTI.ovpn /home/Downloads/
+
 2. Move file to your openVPN folder
-    mv /home/Downloads/CornIslandCLTI.ovpn /etc/openvpn/
+
+        mv /home/Downloads/CornIslandCLTI.ovpn /etc/openvpn/
+
 3. Start OpenVPN
-    sudo openvpn --config CornIslandCLTI.ovpn
+        
+        sudo openvpn --config CornIslandCLTI.ovpn
     
 4. Check connection
-    ip address
+
+        ip address
+
 You should see a TUN0 address with a 10.8.x.x address
 
 5. Set up Autostart openvpn https://support.vpnsecure.me/articles/getting-started/linux-autostart-openvpn-in-systemd-ubuntu
+
 6. Autostart ssh : https://securityjedi.com/?p=210

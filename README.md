@@ -33,13 +33,14 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=210137
 
         ip address
 5. Enable SSH
+      
       If you need to install SSH
                 
-                sudo apt install openssh-server
+        sudo apt install openssh-server
      
      Check to saee if ssh is running
                 
-                sudo systemctl status ssh
+        sudo systemctl status ssh
 
 
 5. Set up Autostart openvpn https://support.vpnsecure.me/articles/getting-started/linux-autostart-openvpn-in-systemd-ubuntu

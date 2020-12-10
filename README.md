@@ -29,11 +29,18 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=210137
         
         sudo openvpn --config CornIslandCLTI.ovpn
     
-4. Check connection
+4. Check connection. You should see a TUN0 address with a 10.8.x.x address
 
         ip address
+5. Enable SSH
+      If you need to install SSH
+                
+                sudo apt install openssh-server
+     
+     Check to saee if ssh is running
+                
+                sudo systemctl status ssh
 
-You should see a TUN0 address with a 10.8.x.x address
 
 5. Set up Autostart openvpn https://support.vpnsecure.me/articles/getting-started/linux-autostart-openvpn-in-systemd-ubuntu
 

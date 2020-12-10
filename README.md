@@ -16,7 +16,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=210137
 
 ### On client Pi (or Linux system)
 
-1. SCP fil;e to your local system.
+1. SCP file to your local system.
 
 
         scp root@198.199.71.241:/home/vpn/CornIslandCLTI.ovpn /home/Downloads/

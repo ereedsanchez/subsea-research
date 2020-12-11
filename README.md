@@ -22,8 +22,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=210137
         scp root@198.199.71.241:~/CornIslandCLTI.ovpn /home/Downloads/CornIslandCLTI.ovpn
 2. Move file to your openVPN folder
 
-        mv /home/Downloads/CornIslandCLTI.ovpn /etc/openvpn
-
+        mv /home/Downloads/CornIslandCLTI.ovpn /etc/openvpn/CornIslandCLTI.ovpn
 3. Start OpenVPN
         
         sudo openvpn --config CornIslandCLTI.ovpn

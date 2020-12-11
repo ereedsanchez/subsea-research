@@ -36,10 +36,14 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=210137
                 
         sudo apt install openssh-server
      
-     Check to saee if ssh is running
+     Check to see if ssh is running
                 
         sudo systemctl status ssh
 
+
+     Start ssh 
+                
+        sudo systemctl start ssh
 
 5. Set up Autostart openvpn https://support.vpnsecure.me/articles/getting-started/linux-autostart-openvpn-in-systemd-ubuntu
 
